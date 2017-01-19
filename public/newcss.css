@@ -1,0 +1,343 @@
+.call-top{ margin-top:2px; font-size:20px;}
+
+.main-menu .navigation > li:hover > a, .main-menu .navigation > li.current > a, .main-menu .navigation > li.current-menu-item > a {
+    color: #2c2c2c;
+    opacity: 1;
+    font-weight: 700px;
+}
+.main-menu .navigation > li > a {
+    position: relative;
+    display: block;
+    padding: 16px 18px 16px 0px;
+    font-size: 14px;
+    color: #2C2C2C;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.main-menu .navigation > li > a:hover {
+	 position: relative;
+    display: block;
+    padding: 16px 18px 16px 0px;
+    font-size: 14px;
+    color: #C00;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;}
+	
+.topbar {
+background-color: #F9AE00;
+border-color: 1px solid #177e5d;
+padding: 2px 0px;
+color: #fff;
+font-weight: 400;
+height: 1px;
+}
+
+.topbar span{font-size: 12px;
+color: #f2f2f2;
+font-weight: bold;}
+
+.call-top span{font-size: 14px;
+text-align: center;
+}
+.call-top span{ text-align:center;}
+.phone-1{ text-align: center;
+margin-top: 49px;}
+.top-iocn{ padding-top:48px;}
+
+.footer {
+	background: #f6f6f6;
+	padding: 20px 0px;
+	margin-top: 20px;
+	border-top: 1px dashed #ccc;
+}
+.footer h4{
+color: #2c2c2c;
+font-weight: 300;
+font-size: 1.333em;
+white-space: nowrap;
+cursor: pointer;
+text-transform: uppercase;
+font-size: 16px;}
+
+.footer p {
+
+padding: 8px 0;
+line-height: 1.833em;
+color: #2c2b2b;
+}
+
+.footer-links li a {
+    color: #484343;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.footer-links li a:hover {
+    color: #F60;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.ftr {
+    background-color: #1a1c1f;
+     padding: 8px 0;
+    line-height: 1.833em;
+	color:#f2f2f2;
+}
+
+.hover button.info, .hover h2 {
+    text-transform: uppercase;
+    color: #ef7906;
+}
+
+
+.hover, .hover h2 {
+	text-align:center
+}
+.hover, .hover .overlay {
+	width:100%;
+	height:100%;
+	overflow:hidden
+}
+
+
+
+#myCarousel img { width:100%;}
+
+
+.ehover11 {
+	
+}
+.ehover11 img {
+max-width: 100%;
+width: calc(100% + 60px);
+transition: opacity .35s, transform .45s;
+-webkit-transform: translate3d(-40px, 0, 0);
+transform: translate3d(0px, 0px, 0);
+border-radius: 50%;
+height: 336px;
+cursor:pointer;
+border: 10px solid #ccc;
+}
+
+
+.ehover11 .overlay::before {
+position:absolute;
+top:20px;
+right:20px;
+bottom:20px;
+left:20px;
+border:1px solid #fff;
+opacity:0;
+transition:opacity .35s, transform .45s;
+-webkit-transform:translate3d(-20px, 0, 0);
+transform:translate3d(-20px, 0, 0)
+}
+.ehover11 .overlay {
+	padding:3em;
+	text-align:left
+}
+.ehover11 h2 {
+	background-color:transparent;
+	
+	text-align:left
+}
+.ehover11 button.info {
+color: #fff;
+opacity: 0;
+margin-left: 85px;
+padding: 0;
+border: none;
+-webkit-transition: opacity .35s, -webkit-transform .45s;
+transition: opacity .35s, transform .45s;
+-webkit-transform: translate3d(-10px, 0, 0);
+transform: translate3d(-10px, 0, 0);
+padding: 10px;
+margin-top: 133px;
+background-color: #9c0d02;
+}
+
+.hover button.info{ color:#fff;}
+.ehover11:hover img {
+	opacity:6;
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0)
+}
+.ehover11:hover .overlay::before, .ehover11:hover button.info {
+opacity:1;
+-webkit-transform:translate3d(0, 0, 0);
+transform:translate3d(0, 0, 0)
+}
+.ehover11 .overlay::before, .ehover11 img {
+-webkit-transition:opacity .35s, -webkit-transform .45s
+}
+
+
+.hover button.info, .hover h2 {
+text-transform: uppercase;
+color: #fff !important;
+text-align: center;
+}
+
+.hover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ehover11 h2 {
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.pro-1{ border:2px solid #ccc; padding:10px; background-color:#f2f2f2;}
+
+.pro-1:hover{ border:2px solid #C60;}
+
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+.col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+    cursor: pointer;
+}
+}
+
+.col-item:hover .info:hover {
+    background-color: #F9B100;
+	cursor:pointer;
+}
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+.col-item .price
+{/*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+margin: 0;
+text-align: center;
+text-transform: uppercase;
+padding-bottom: 10px;
+color: #3f3f3f;
+}
+
+.price-text-color
+{
+    color: #219FD1;
+}
+
+.col-item .info .rating
+{
+    color: #777;
+}
+
+.col-item .rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+
+.col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+.cra{ text-align:center; text-transform:uppercase; font: 1.2em/1.2em Sintony,sans-serif;}
+
+.crt-1 h3{ margin-left:20px; text-align:center; text-transform:uppercase; font-size:20px;}
+.crt-1 h3:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 200px;
+}
+.crt-1 h3:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 200px;
+}
